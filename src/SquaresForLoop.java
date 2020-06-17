@@ -7,10 +7,12 @@ public class SquaresForLoop {
         System.out.println("Enter a number: ");
         int cunterStart = 1;
         int stopNumber = input.nextInt();
+        System.out.println("Number\tSquare");
+        System.out.println("------\t------");
 
 
         for (;cunterStart <= stopNumber; cunterStart = cunterStart + 1) {
-            System.out.println((cunterStart + " " + cunterStart * cunterStart));
+            System.out.println((cunterStart + "\t \t" + cunterStart * cunterStart));
         }
 
     }
